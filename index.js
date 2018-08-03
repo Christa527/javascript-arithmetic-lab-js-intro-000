@@ -24,7 +24,7 @@ function dec(n) {
 
 function makeInt(n) {
   var parsed = parseInt(n, 10)
-  return parseInt(n)
+  return makeInt(n)
 }
 
 function preserveDecimal(n) {
