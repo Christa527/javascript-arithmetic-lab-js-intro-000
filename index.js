@@ -22,6 +22,12 @@ function dec(n) {
   return --n
 }
 
-function makeInt(n, power) {
+function makeInt(n) {
+  n = '2'
+  parseInt(n, 10)
   return n
+}
+
+function preserveDecimal(n) {
+  parseFloat(n)
 }
